@@ -11,7 +11,7 @@ export default function ResortEs() {
         <h1 className="font-display text-4xl md:text-5xl">Resort</h1>
         <p className="mt-3 text-ink-light max-w-3xl">Río Perlas Thermal Resort & Spa se ubica en Orosí de Cartago, rodeado de bosque tropical. El complejo ofrece aguas termales naturales, habitaciones, spa, gastronomía y espacios para eventos.</p>
         <div className="mt-8 grid gap-6 lg:grid-cols-2 items-start">
-          <img src="/images/hero/hero-03.webp" alt="Complejo termal del resort" className="w-full h-[420px] object-cover" width="1600" height="1200" loading="lazy" />
+          <img src="/images/hero/hero-03.webp" alt="Complejo termal del resort" className="w-full h-64 md:h-[420px] object-cover object-center" width="1600" height="1200" loading="lazy" />
           <div ref={ref} className="grid gap-4">
             {facilitiesEs.map((f) => (
               <article key={f.title} className="border border-stone p-5">

@@ -14,9 +14,9 @@ export default function RoomsEs() {
           {rooms.map((room) => (
             <article key={room.slug} className="border border-stone">
               {room.image ? (
-                <img src={room.image} alt={room.nameEs} className="w-full h-56 object-cover" width="2304" height="1536" loading="lazy" />
+                <img src={room.image} alt={room.nameEs} className="w-full h-48 md:h-56 object-cover object-center" width="2304" height="1536" loading="lazy" />
               ) : (
-                <div className="w-full h-56 bg-sand flex items-center justify-center text-sm text-ink-light">Imagen por confirmar</div>
+                <div className="w-full h-48 md:h-56 bg-sand flex items-center justify-center text-sm text-ink-light">Imagen por confirmar</div>
               )}
               <div className="p-5">
                 <div className="flex items-center justify-between">

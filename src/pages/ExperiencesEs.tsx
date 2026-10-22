@@ -9,21 +9,21 @@ export default function ExperiencesEs() {
         <p className="mt-3 text-ink-light max-w-3xl">El Valle de Orosi ofrece naturaleza, patrimonio y aventura. La siguiente información está basada en el archivo oficial.</p>
         <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <article className="border border-stone">
-            <img src="/images/hero/hero-04.webp" alt="Valle de Orosi" className="w-full h-56 object-cover" width="1600" height="1060" loading="lazy" />
+            <img src="/images/hero/hero-04.webp" alt="Valle de Orosi" className="w-full h-48 md:h-56 object-cover object-center" width="1600" height="1060" loading="lazy" />
             <div className="p-5">
               <h2 className="font-display text-xl">Valle de Orosi</h2>
               <p className="mt-2 text-sm text-ink-light">Rodeado de montañas y bosque. Cerca de Tapantí NP, Irazú, Turrialba, Guayabo, Jardines Lankaster e Iglesia de Orosí.</p>
             </div>
           </article>
           <article className="border border-stone">
-            <img src="/images/gallery/gal-49.webp" alt="Piscinas termales" className="w-full h-56 object-cover" width="570" height="602" loading="lazy" />
+            <img src="/images/gallery/gal-49.webp" alt="Piscinas termales" className="w-full h-48 md:h-56 object-cover object-center" width="570" height="602" loading="lazy" />
             <div className="p-5">
               <h2 className="font-display text-xl">Aguas termales</h2>
               <p className="mt-2 text-sm text-ink-light">Piscina termal, piscina fría, piscina para niños y jacuzzis.</p>
             </div>
           </article>
           <article className="border border-stone">
-            <img src="/images/hero/hero-07.webp" alt="Pesca de trucha" className="w-full h-56 object-cover" width="1600" height="1063" loading="lazy" />
+            <img src="/images/hero/hero-07.webp" alt="Pesca de trucha" className="w-full h-48 md:h-56 object-cover object-center" width="1600" height="1063" loading="lazy" />
             <div className="p-5">
               <h2 className="font-display text-xl">Pesca de trucha</h2>
               <p className="mt-2 text-sm text-ink-light">Pesca de trucha en el lago (según archivo oficial).</p>

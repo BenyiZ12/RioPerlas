@@ -9,21 +9,21 @@ export default function ExperiencesEn() {
         <p className="mt-3 text-ink-light max-w-3xl">The Orosí Valley offers nature, heritage, and adventure. Information based on the official archive.</p>
         <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <article className="border border-stone">
-            <img src="/images/hero/hero-04.webp" alt="Orosí Valley" className="w-full h-56 object-cover" width="1600" height="1060" loading="lazy" />
+            <img src="/images/hero/hero-04.webp" alt="Orosí Valley" className="w-full h-48 md:h-56 object-cover object-center" width="1600" height="1060" loading="lazy" />
             <div className="p-5">
               <h2 className="font-display text-xl">Orosí Valley</h2>
               <p className="mt-2 text-sm text-ink-light">Mountains and forest. Near Tapantí NP, Irazú, Turrialba, Guayabo, Lankaster Gardens, and Orosí Church.</p>
             </div>
           </article>
           <article className="border border-stone">
-            <img src="/images/gallery/gal-49.webp" alt="Thermal pools" className="w-full h-56 object-cover" width="570" height="602" loading="lazy" />
+            <img src="/images/gallery/gal-49.webp" alt="Thermal pools" className="w-full h-48 md:h-56 object-cover object-center" width="570" height="602" loading="lazy" />
             <div className="p-5">
               <h2 className="font-display text-xl">Hot springs</h2>
               <p className="mt-2 text-sm text-ink-light">Hot pool, cold pool, children's pool, and jacuzzis.</p>
             </div>
           </article>
           <article className="border border-stone">
-            <img src="/images/hero/hero-07.webp" alt="Trout fishing" className="w-full h-56 object-cover" width="1600" height="1063" loading="lazy" />
+            <img src="/images/hero/hero-07.webp" alt="Trout fishing" className="w-full h-48 md:h-56 object-cover object-center" width="1600" height="1063" loading="lazy" />
             <div className="p-5">
               <h2 className="font-display text-xl">Trout fishing</h2>
               <p className="mt-2 text-sm text-ink-light">Trout fishing in the lake (per official archive).</p>

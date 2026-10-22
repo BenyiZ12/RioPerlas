@@ -9,7 +9,7 @@ export default function RestaurantEs() {
         <h1 className="font-display text-4xl md:text-5xl">Restaurante</h1>
         <p className="mt-3 text-ink-light max-w-3xl">{restaurantEs.note}</p>
         <div className="mt-8 grid gap-8 lg:grid-cols-2">
-          <img src="/images/gallery/gal-43.webp" alt="Restaurante del resort" className="w-full h-[420px] object-cover" width="570" height="340" loading="lazy" />
+          <img src="/images/gallery/gal-43.webp" alt="Restaurante del resort" className="w-full h-64 md:h-[420px] object-cover object-center" width="570" height="340" loading="lazy" />
           <div className="grid gap-4">
             {restaurantEs.venues.map((v) => (
               <article key={v.name} className="border border-stone p-5">

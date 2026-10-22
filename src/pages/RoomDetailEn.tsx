@@ -24,9 +24,9 @@ export default function RoomDetailEn() {
         <p className="mt-2 text-ink-light">{room.guestsEn} · {room.category}</p>
         <div className="mt-8 grid gap-8 lg:grid-cols-2">
           {room.image ? (
-            <img src={room.image} alt={room.nameEn} className="w-full h-[420px] object-cover" width="2304" height="1536" loading="lazy" />
+            <img src={room.image} alt={room.nameEn} className="w-full h-64 md:h-[420px] object-cover object-center" width="2304" height="1536" loading="lazy" />
           ) : (
-            <div className="w-full h-[420px] bg-sand flex items-center justify-center text-ink-light">Image not verified in archive</div>
+            <div className="w-full h-64 md:h-[420px] bg-sand flex items-center justify-center text-ink-light">Image not verified in archive</div>
           )}
           <div>
             <p className="text-ink-light leading-relaxed">{room.descEn}</p>

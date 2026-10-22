@@ -9,7 +9,7 @@ export default function DayPassEn() {
         <h1 className="font-display text-4xl md:text-5xl">Day Pass</h1>
         <p className="mt-3 text-ink-light max-w-3xl">{dayPassEn.note}</p>
         <div className="mt-8 grid gap-8 lg:grid-cols-2">
-          <img src="/images/gallery/gal-47.webp" alt="Thermal pools for day pass" className="w-full h-[420px] object-cover" width="570" height="379" loading="lazy" />
+          <img src="/images/gallery/gal-47.webp" alt="Thermal pools for day pass" className="w-full h-64 md:h-[420px] object-cover object-center" width="570" height="379" loading="lazy" />
           <div className="border border-stone p-5">
             <h2 className="font-display text-xl">Prices</h2>
             <ul className="mt-3 divide-y divide-stone">

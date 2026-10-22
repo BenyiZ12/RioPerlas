@@ -33,8 +33,10 @@ export const rooms: Room[] = [
     category: 'Habitación',
     guestsEs: '2 huéspedes',
     guestsEn: '2 guests',
-    descEs: 'Habitaciones de cemento estilo colonial, ubicadas cerca de recepción y parqueo. (Detalle de amenidades no completamente verificado.)',
-    descEn: 'Concrete rooms in colonial style, near reception and parking. (Amenity details not fully verified.)',
+    descEs: 'Habitaciones de cemento estilo colonial, ubicadas cerca de recepción y parqueo. (Foto de referencia del archivo; amenidades por confirmar.)',
+    descEn: 'Concrete rooms in colonial style, near reception and parking. (Reference photo from archive; amenities to confirm.)',
+    image: '/images/gallery/gal-30.webp',
+    images: ['/images/gallery/gal-30.webp'],
     verified: false,
   },
   {
@@ -46,6 +48,8 @@ export const rooms: Room[] = [
     guestsEn: '2–3 guests',
     descEs: 'Habitaciones amplias con diseño de planta abierta y zona de estar.',
     descEn: 'Spacious rooms with open-plan layout and sitting area.',
+    image: '/images/gallery/gal-34.webp',
+    images: ['/images/gallery/gal-34.webp'],
     verified: true,
   },
   {
@@ -57,6 +61,8 @@ export const rooms: Room[] = [
     guestsEn: '2–3 guests',
     descEs: 'Habitación de cemento estilo colonial, elegante y espaciosa, rodeada de vegetación.',
     descEn: 'Elegant and spacious colonial-style concrete room, surrounded by vegetation.',
+    image: '/images/gallery/gal-35.webp',
+    images: ['/images/gallery/gal-35.webp'],
     verified: true,
   },
   {
@@ -68,6 +74,8 @@ export const rooms: Room[] = [
     guestsEn: '2 guests',
     descEs: 'Refugio extra amplio y romántico con dormitorio acogedor y zona de estar interior.',
     descEn: 'Extra spacious and romantic retreat with cozy bedroom and interior living area.',
+    image: '/images/gallery/gal-32.webp',
+    images: ['/images/gallery/gal-32.webp'],
     verified: true,
   },
   {
@@ -105,6 +113,8 @@ export const rooms: Room[] = [
     guestsEn: '2–4 guests',
     descEs: 'Suite presidencial con vista panorámica al río Río Perlas, montañas y piscinas termales.',
     descEn: 'Presidential suite with panoramic views of Río Perlas, mountains, and thermal pools.',
+    image: '/images/gallery/gal-46.webp',
+    images: ['/images/gallery/gal-46.webp'],
     verified: true,
   },
   {

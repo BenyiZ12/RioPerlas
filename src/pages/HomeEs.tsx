@@ -14,7 +14,7 @@ export default function HomeEs() {
     <>
       <Seo lang="es" title="Río Perlas Thermal Resort & Spa | Orosí, Cartago, Costa Rica" description="Resort termal con aguas termales naturales en el Valle de Orosi, Cartago, Costa Rica. Piscinas termales, spa, habitaciones, gastronomía." path="/es/" />
       <section className="relative">
-        <img src="/images/hero/arch-images__jkit__images__135-full.webp" srcSet="/images/hero/arch-images__jkit__images__135-full-640.webp 640w, /images/hero/arch-images__jkit__images__135-full-960.webp 960w, /images/hero/arch-images__jkit__images__135-full-1280.webp 1280w, /images/hero/arch-images__jkit__images__135-full.webp 1600w" sizes="100vw" alt="Río Perlas Thermal Resort & Spa - Piscinas termales rodeadas de naturaleza" className="w-full h-[70vh] md:h-[80vh] object-cover" width="1600" height="1060" />
+        <img src="/images/hero/arch-images__jkit__images__135-full.webp" srcSet="/images/hero/arch-images__jkit__images__135-full-640.webp 640w, /images/hero/arch-images__jkit__images__135-full-960.webp 960w, /images/hero/arch-images__jkit__images__135-full-1280.webp 1280w, /images/hero/arch-images__jkit__images__135-full.webp 1600w" sizes="100vw" alt="Río Perlas Thermal Resort & Spa - Piscinas termales rodeadas de naturaleza" className="w-full min-h-[55vh] md:h-[75vh] object-cover object-center" width="1600" height="1060" loading="eager" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-black/10" />
         <div className="absolute inset-0 flex items-center">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -70,9 +70,9 @@ export default function HomeEs() {
           {rooms.slice(0, 6).map((room) => (
             <article key={room.slug} className="border border-stone">
               {room.image ? (
-                <img src={room.image} alt={room.nameEs} className="w-full h-56 object-cover" width="2304" height="1536" loading="lazy" />
+                <img src={room.image} alt={room.nameEs} className="w-full h-48 md:h-56 object-cover object-center" width="2304" height="1536" loading="lazy" />
               ) : (
-                <div className="w-full h-56 bg-sand" />
+                <div className="w-full h-48 md:h-56 bg-sand flex items-center justify-center text-sm text-ink-light">Imagen por confirmar</div>
               )}
               <div className="p-5">
                 <div className="flex items-center justify-between">

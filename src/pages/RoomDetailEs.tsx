@@ -24,9 +24,9 @@ export default function RoomDetailEs() {
         <p className="mt-2 text-ink-light">{room.guestsEs} · {room.category}</p>
         <div className="mt-8 grid gap-8 lg:grid-cols-2">
           {room.image ? (
-            <img src={room.image} alt={room.nameEs} className="w-full h-[420px] object-cover" width="2304" height="1536" loading="lazy" />
+            <img src={room.image} alt={room.nameEs} className="w-full h-64 md:h-[420px] object-cover object-center" width="2304" height="1536" loading="lazy" />
           ) : (
-            <div className="w-full h-[420px] bg-sand flex items-center justify-center text-ink-light">Imagen no verificada en archivo</div>
+            <div className="w-full h-64 md:h-[420px] bg-sand flex items-center justify-center text-ink-light">Imagen no verificada en archivo</div>
           )}
           <div>
             <p className="text-ink-light leading-relaxed">{room.descEs}</p>

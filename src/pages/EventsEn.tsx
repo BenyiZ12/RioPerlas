@@ -9,7 +9,7 @@ export default function EventsEn() {
         <h1 className="font-display text-4xl md:text-5xl">Weddings & Events</h1>
         <p className="mt-3 text-ink-light max-w-3xl">{eventsEn.note}</p>
         <div className="mt-8 grid gap-8 lg:grid-cols-2">
-          <img src="/images/gallery/gal-31.webp" alt="Weddings and events" className="w-full h-[420px] object-cover" width="570" height="428" loading="lazy" />
+          <img src="/images/gallery/gal-31.webp" alt="Weddings and events" className="w-full h-64 md:h-[420px] object-cover object-center" width="570" height="428" loading="lazy" />
           <div className="grid gap-4">
             <div className="border border-stone p-5">
               <h2 className="font-display text-xl">Wedding menus</h2>

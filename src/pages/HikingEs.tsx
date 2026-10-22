@@ -8,7 +8,7 @@ export default function HikingEs() {
         <h1 className="font-display text-4xl md:text-5xl">Senderismo</h1>
         <p className="mt-3 text-ink-light max-w-3xl">El entorno del resort forma parte del Valle de Orosi, con bosque tropical y diversidad de fauna (45 especies de mamíferos, más de 400 especies de aves, 28 especies de reptiles y anfibios según el archivo oficial).</p>
         <div className="mt-8 grid gap-8 lg:grid-cols-2">
-          <img src="/images/hero/hero-06.webp" alt="Senderismo en el Valle de Orosi" className="w-full h-[420px] object-cover" width="1600" height="953" loading="lazy" />
+          <img src="/images/hero/hero-06.webp" alt="Senderismo en el Valle de Orosi" className="w-full h-64 md:h-[420px] object-cover object-center" width="1600" height="953" loading="lazy" />
           <div className="border border-stone p-5">
             <h2 className="font-display text-xl">Información</h2>
             <p className="mt-2 text-sm text-ink-light">Señalamientos y rutas exactas no se encuentran completamente detallados en el archivo recuperado. Se recomienda consultar en recepción al momento de la visita.</p>
