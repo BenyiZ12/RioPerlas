@@ -1,0 +1,123 @@
+export type Room = {
+  slug: string
+  nameEs: string
+  nameEn: string
+  category: string
+  guestsEs: string
+  guestsEn: string
+  descEs: string
+  descEn: string
+  image?: string
+  images?: string[]
+  verified: boolean
+}
+
+export const rooms: Room[] = [
+  {
+    slug: 'wood-cabin-rustica',
+    nameEs: 'Wood Cabin Rústica',
+    nameEn: 'Rustic Wood Cabin',
+    category: 'Cabaña',
+    guestsEs: '2–4 huéspedes',
+    guestsEn: '2–4 guests',
+    descEs: 'Cabaña de madera con ambiente rústico. (Foto/amenidades específicas no verificadas en el archivo; se requiere confirmación del propietario.)',
+    descEn: 'Wooden cabin with a rustic feel. (Specific photos/amenities not fully verified in the archive; owner confirmation required.)',
+    image: '/images/rooms/wood-cabin.webp',
+    images: ['/images/rooms/wood-cabin.webp'],
+    verified: false,
+  },
+  {
+    slug: 'superior-room',
+    nameEs: 'Superior Room',
+    nameEn: 'Superior Room',
+    category: 'Habitación',
+    guestsEs: '2 huéspedes',
+    guestsEn: '2 guests',
+    descEs: 'Habitaciones de cemento estilo colonial, ubicadas cerca de recepción y parqueo. (Detalle de amenidades no completamente verificado.)',
+    descEn: 'Concrete rooms in colonial style, near reception and parking. (Amenity details not fully verified.)',
+    verified: false,
+  },
+  {
+    slug: 'river-sound',
+    nameEs: 'River Sound',
+    nameEn: 'River Sound',
+    category: 'Habitación/Suite',
+    guestsEs: '2–3 huéspedes',
+    guestsEn: '2–3 guests',
+    descEs: 'Habitaciones amplias con diseño de planta abierta y zona de estar.',
+    descEn: 'Spacious rooms with open-plan layout and sitting area.',
+    verified: true,
+  },
+  {
+    slug: 'junior-suite',
+    nameEs: 'Junior Suite',
+    nameEn: 'Junior Suite',
+    category: 'Suite',
+    guestsEs: '2–3 huéspedes',
+    guestsEn: '2–3 guests',
+    descEs: 'Habitación de cemento estilo colonial, elegante y espaciosa, rodeada de vegetación.',
+    descEn: 'Elegant and spacious colonial-style concrete room, surrounded by vegetation.',
+    verified: true,
+  },
+  {
+    slug: 'honeymoon-suite',
+    nameEs: 'Honeymoon Suite',
+    nameEn: 'Honeymoon Suite',
+    category: 'Suite',
+    guestsEs: '2 huéspedes',
+    guestsEn: '2 guests',
+    descEs: 'Refugio extra amplio y romántico con dormitorio acogedor y zona de estar interior.',
+    descEn: 'Extra spacious and romantic retreat with cozy bedroom and interior living area.',
+    verified: true,
+  },
+  {
+    slug: 'mountain-view-suite',
+    nameEs: 'Mountain View Suite',
+    nameEn: 'Mountain View Suite',
+    category: 'Suite',
+    guestsEs: '2–4 huéspedes',
+    guestsEn: '2–4 guests',
+    descEs: 'Vistas panorámicas a la montaña. Ubicadas en puntos con buena vista del resort.',
+    descEn: 'Panoramic mountain views.',
+    image: '/images/rooms/mountain-view.webp',
+    images: ['/images/rooms/mountain-view.webp'],
+    verified: true,
+  },
+  {
+    slug: 'master-suite',
+    nameEs: 'Master Suite',
+    nameEn: 'Master Suite',
+    category: 'Suite',
+    guestsEs: '4–6 huéspedes',
+    guestsEn: '4–6 guests',
+    descEs: 'Suite de dos habitaciones, ideal para familia o amigos. Vista a montañas, río y piscinas termales.',
+    descEn: 'Two-bedroom suite, ideal for families or groups. Views of mountains, river, and thermal pools.',
+    image: '/images/rooms/master.webp',
+    images: ['/images/rooms/master.webp'],
+    verified: true,
+  },
+  {
+    slug: 'presidential-suite',
+    nameEs: 'Presidential Suite',
+    nameEn: 'Presidential Suite',
+    category: 'Suite',
+    guestsEs: '2–4 huéspedes',
+    guestsEn: '2–4 guests',
+    descEs: 'Suite presidencial con vista panorámica al río Río Perlas, montañas y piscinas termales.',
+    descEn: 'Presidential suite with panoramic views of Río Perlas, mountains, and thermal pools.',
+    verified: true,
+  },
+  {
+    slug: 'wood-cabin',
+    nameEs: 'Wood Cabin',
+    nameEn: 'Wood Cabin',
+    category: 'Cabaña',
+    guestsEs: '2–4 huéspedes',
+    guestsEn: '2–4 guests',
+    descEs: 'Cabaña de madera rodeada de vegetación.',
+    descEn: 'Wooden cabin surrounded by vegetation.',
+    image: '/images/rooms/wood-cabin.webp',
+    images: ['/images/rooms/wood-cabin.webp'],
+    verified: true,
+  },
+]

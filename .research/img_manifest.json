@@ -1,0 +1,436 @@
+[
+  {
+    "src": "raw/hero/hero-01.jpg",
+    "cat": "hero",
+    "base": "hero-01.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/hero/hero-02.jpg",
+    "cat": "hero",
+    "base": "hero-02.webp",
+    "w": 570,
+    "h": 382
+  },
+  {
+    "src": "raw/hero/hero-03.jpg",
+    "cat": "hero",
+    "base": "hero-03.webp",
+    "w": 1600,
+    "h": 1200
+  },
+  {
+    "src": "raw/hero/hero-04.jpg",
+    "cat": "hero",
+    "base": "hero-04.webp",
+    "w": 1600,
+    "h": 1060
+  },
+  {
+    "src": "raw/hero/hero-05.jpg",
+    "cat": "hero",
+    "base": "hero-05.webp",
+    "w": 1600,
+    "h": 1060
+  },
+  {
+    "src": "raw/hero/hero-06.jpg",
+    "cat": "hero",
+    "base": "hero-06.webp",
+    "w": 1600,
+    "h": 953
+  },
+  {
+    "src": "raw/hero/hero-07.jpg",
+    "cat": "hero",
+    "base": "hero-07.webp",
+    "w": 1600,
+    "h": 1063
+  },
+  {
+    "src": "raw/hero/hero-08.jpg",
+    "cat": "hero",
+    "base": "hero-08.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/hero/hero-09.jpg",
+    "cat": "hero",
+    "base": "hero-09.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/hero/hero-10.jpg",
+    "cat": "hero",
+    "base": "hero-10.webp",
+    "w": 570,
+    "h": 428
+  },
+  {
+    "src": "raw/hero/hero-11.jpg",
+    "cat": "hero",
+    "base": "hero-11.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/rooms/master.jpg",
+    "cat": "rooms",
+    "base": "master.webp",
+    "w": 2304,
+    "h": 1536
+  },
+  {
+    "src": "raw/rooms/mountain-view.jpg",
+    "cat": "rooms",
+    "base": "mountain-view.webp",
+    "w": 2304,
+    "h": 1536
+  },
+  {
+    "src": "raw/rooms/wood-cabin.jpg",
+    "cat": "rooms",
+    "base": "wood-cabin.webp",
+    "w": 2304,
+    "h": 1536
+  },
+  {
+    "src": "raw/facilities/recepcion.jpg",
+    "cat": "facilities",
+    "base": "recepcion.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/facilities/spa-tratamientos.jpg",
+    "cat": "facilities",
+    "base": "spa-tratamientos.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/pages/contacto-fondo.jpg",
+    "cat": "pages",
+    "base": "contacto-fondo.webp",
+    "w": 1170,
+    "h": 778
+  },
+  {
+    "src": "raw/pages/eventos.jpg",
+    "cat": "pages",
+    "base": "eventos.webp",
+    "w": 1170,
+    "h": 783
+  },
+  {
+    "src": "raw/pages/historia.jpg",
+    "cat": "pages",
+    "base": "historia.webp",
+    "w": 1170,
+    "h": 775
+  },
+  {
+    "src": "raw/pages/resort.jpg",
+    "cat": "pages",
+    "base": "resort.webp",
+    "w": 1170,
+    "h": 780
+  },
+  {
+    "src": "raw/gallery/gal-04.jpg",
+    "cat": "gallery",
+    "base": "gal-04.webp",
+    "w": 570,
+    "h": 378
+  },
+  {
+    "src": "raw/gallery/gal-13.jpg",
+    "cat": "gallery",
+    "base": "gal-13.webp",
+    "w": 570,
+    "h": 321
+  },
+  {
+    "src": "raw/gallery/gal-17.jpg",
+    "cat": "gallery",
+    "base": "gal-17.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/gallery/gal-18.jpg",
+    "cat": "gallery",
+    "base": "gal-18.webp",
+    "w": 570,
+    "h": 428
+  },
+  {
+    "src": "raw/gallery/gal-19.jpg",
+    "cat": "gallery",
+    "base": "gal-19.webp",
+    "w": 570,
+    "h": 427
+  },
+  {
+    "src": "raw/gallery/gal-20.jpg",
+    "cat": "gallery",
+    "base": "gal-20.webp",
+    "w": 570,
+    "h": 427
+  },
+  {
+    "src": "raw/gallery/gal-21.jpg",
+    "cat": "gallery",
+    "base": "gal-21.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/gallery/gal-24.jpg",
+    "cat": "gallery",
+    "base": "gal-24.webp",
+    "w": 570,
+    "h": 367
+  },
+  {
+    "src": "raw/gallery/gal-25.jpg",
+    "cat": "gallery",
+    "base": "gal-25.webp",
+    "w": 240,
+    "h": 240
+  },
+  {
+    "src": "raw/gallery/gal-29.jpg",
+    "cat": "gallery",
+    "base": "gal-29.webp",
+    "w": 570,
+    "h": 851
+  },
+  {
+    "src": "raw/gallery/gal-30.jpg",
+    "cat": "gallery",
+    "base": "gal-30.webp",
+    "w": 570,
+    "h": 382
+  },
+  {
+    "src": "raw/gallery/gal-31.jpg",
+    "cat": "gallery",
+    "base": "gal-31.webp",
+    "w": 570,
+    "h": 428
+  },
+  {
+    "src": "raw/gallery/gal-32.jpg",
+    "cat": "gallery",
+    "base": "gal-32.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/gallery/gal-33.jpg",
+    "cat": "gallery",
+    "base": "gal-33.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/gallery/gal-34.jpg",
+    "cat": "gallery",
+    "base": "gal-34.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/gallery/gal-35.jpg",
+    "cat": "gallery",
+    "base": "gal-35.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/gallery/gal-37.jpg",
+    "cat": "gallery",
+    "base": "gal-37.webp",
+    "w": 570,
+    "h": 425
+  },
+  {
+    "src": "raw/gallery/gal-38.jpg",
+    "cat": "gallery",
+    "base": "gal-38.webp",
+    "w": 570,
+    "h": 428
+  },
+  {
+    "src": "raw/gallery/gal-42.jpg",
+    "cat": "gallery",
+    "base": "gal-42.webp",
+    "w": 570,
+    "h": 428
+  },
+  {
+    "src": "raw/gallery/gal-43.jpg",
+    "cat": "gallery",
+    "base": "gal-43.webp",
+    "w": 570,
+    "h": 340
+  },
+  {
+    "src": "raw/gallery/gal-44.jpg",
+    "cat": "gallery",
+    "base": "gal-44.webp",
+    "w": 570,
+    "h": 380
+  },
+  {
+    "src": "raw/gallery/gal-45.jpg",
+    "cat": "gallery",
+    "base": "gal-45.webp",
+    "w": 570,
+    "h": 378
+  },
+  {
+    "src": "raw/gallery/gal-46.jpg",
+    "cat": "gallery",
+    "base": "gal-46.webp",
+    "w": 570,
+    "h": 321
+  },
+  {
+    "src": "raw/gallery/gal-47.jpg",
+    "cat": "gallery",
+    "base": "gal-47.webp",
+    "w": 570,
+    "h": 379
+  },
+  {
+    "src": "raw/gallery/gal-48.jpg",
+    "cat": "gallery",
+    "base": "gal-48.webp",
+    "w": 570,
+    "h": 321
+  },
+  {
+    "src": "raw/gallery/gal-49.jpg",
+    "cat": "gallery",
+    "base": "gal-49.webp",
+    "w": 570,
+    "h": 602
+  },
+  {
+    "src": "raw/official/of-01.jpg",
+    "cat": "official",
+    "base": "of-01.webp",
+    "w": 400,
+    "h": 356
+  },
+  {
+    "src": "raw/official/of-02.jpg",
+    "cat": "official",
+    "base": "of-02.webp",
+    "w": 400,
+    "h": 300
+  },
+  {
+    "src": "raw/official/of-03.jpg",
+    "cat": "official",
+    "base": "of-03.webp",
+    "w": 400,
+    "h": 266
+  },
+  {
+    "src": "raw/official/of-04.jpg",
+    "cat": "official",
+    "base": "of-04.webp",
+    "w": 400,
+    "h": 300
+  },
+  {
+    "src": "raw/official/of-05.jpg",
+    "cat": "official",
+    "base": "of-05.webp",
+    "w": 400,
+    "h": 266
+  },
+  {
+    "src": "raw/official/of-06.jpg",
+    "cat": "official",
+    "base": "of-06.webp",
+    "w": 400,
+    "h": 266
+  },
+  {
+    "src": "raw/official/of-07.jpg",
+    "cat": "official",
+    "base": "of-07.webp",
+    "w": 400,
+    "h": 206
+  },
+  {
+    "src": "raw/official/of-08.jpg",
+    "cat": "official",
+    "base": "of-08.webp",
+    "w": 400,
+    "h": 225
+  },
+  {
+    "src": "raw/official/of-09.jpg",
+    "cat": "official",
+    "base": "of-09.webp",
+    "w": 187,
+    "h": 250
+  },
+  {
+    "src": "raw/arch/images__jkit__items__27-full.jpg",
+    "cat": "hero",
+    "base": "arch-images__jkit__items__27-full.webp",
+    "w": 1600,
+    "h": 1066
+  },
+  {
+    "src": "raw/arch/images__jkit__items__29-full.jpg",
+    "cat": "hero",
+    "base": "arch-images__jkit__items__29-full.webp",
+    "w": 1600,
+    "h": 1064
+  },
+  {
+    "src": "raw/arch/images__jkit__images__13-full.jpg",
+    "cat": "hero",
+    "base": "arch-images__jkit__images__13-full.webp",
+    "w": 1600,
+    "h": 1060
+  },
+  {
+    "src": "raw/arch/images__jkit__images__21-full.jpg",
+    "cat": "hero",
+    "base": "arch-images__jkit__images__21-full.webp",
+    "w": 1600,
+    "h": 1200
+  },
+  {
+    "src": "raw/arch/images__jkit__images__135-full.jpg",
+    "cat": "hero",
+    "base": "arch-images__jkit__images__135-full.webp",
+    "w": 1600,
+    "h": 1060
+  },
+  {
+    "src": "raw/arch/images__jkit__images__136-full.jpg",
+    "cat": "hero",
+    "base": "arch-images__jkit__images__136-full.webp",
+    "w": 1600,
+    "h": 953
+  },
+  {
+    "src": "raw/arch/images__jkit__images__137-full.jpg",
+    "cat": "hero",
+    "base": "arch-images__jkit__images__137-full.webp",
+    "w": 1600,
+    "h": 1063
+  }
+]

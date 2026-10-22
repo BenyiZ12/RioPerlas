@@ -1,0 +1,102 @@
+OK    brand/logo-rio-perlas                 66433b  web/2024id_/http://rio-perlas.com/images/jkit/items/15.jpg
+OK    hero/hero-01                         124852b  24id_/http://rio-perlas.com/images/jkit/images/131-med.jpg
+OK    hero/hero-02                         121288b  24id_/http://rio-perlas.com/images/jkit/images/132-med.jpg
+OK    hero/hero-03                         616076b  24id_/http://rio-perlas.com/images/jkit/images/21-full.jpg
+OK    hero/hero-04                         486599b  24id_/http://rio-perlas.com/images/jkit/images/13-full.jpg
+OK    hero/hero-05                         767207b  4id_/http://rio-perlas.com/images/jkit/images/135-full.jpg
+OK    hero/hero-06                         788105b  4id_/http://rio-perlas.com/images/jkit/images/136-full.jpg
+OK    hero/hero-07                         362654b  4id_/http://rio-perlas.com/images/jkit/images/137-full.jpg
+OK    hero/hero-08                         101832b  024id_/http://rio-perlas.com/images/jkit/images/15-med.jpg
+OK    hero/hero-09                          55906b  024id_/http://rio-perlas.com/images/jkit/images/14-med.jpg
+FAIL  hero/hero-10                       024id_/http://rio-perlas.com/images/jkit/images/17-med.jpg
+FAIL  hero/hero-11                       024id_/http://rio-perlas.com/images/jkit/images/16-med.jpg
+FAIL  facilities/piscinas-termales       024id_/http://rio-perlas.com/images/jkit/images/89-med.jpg
+FAIL  facilities/bar                     024id_/http://rio-perlas.com/images/jkit/images/90-med.jpg
+FAIL  facilities/iglesia                 024id_/http://rio-perlas.com/images/jkit/images/91-med.jpg
+FAIL  facilities/sala-conferencias       024id_/http://rio-perlas.com/images/jkit/images/92-med.jpg
+OK    facilities/recepcion                  88717b  024id_/http://rio-perlas.com/images/jkit/images/93-med.jpg
+FAIL  facilities/restaurante             024id_/http://rio-perlas.com/images/jkit/images/94-med.jpg
+OK    facilities/spa-tratamientos           79518b  24id_/http://rio-perlas.com/images/jkit/images/130-med.jpg
+FAIL  facilities/habitaciones            24id_/http://rio-perlas.com/images/jkit/images/134-med.jpg
+OK    pages/resort                         359542b  2024id_/http://rio-perlas.com/images/jkit/items/32-big.jpg
+FAIL  pages/sobre-nosotros               2024id_/http://rio-perlas.com/images/jkit/items/40-big.jpg
+FAIL  pages/ubicacion                    2024id_/http://rio-perlas.com/images/jkit/items/41-big.jpg
+FAIL  pages/restaurante                  2024id_/http://rio-perlas.com/images/jkit/items/42-big.jpg
+FAIL  pages/spa                          2024id_/http://rio-perlas.com/images/jkit/items/43-big.jpg
+OK    pages/eventos                        391498b  2024id_/http://rio-perlas.com/images/jkit/items/44-big.jpg
+FAIL  pages/day-pass                     2024id_/http://rio-perlas.com/images/jkit/items/45-big.jpg
+FAIL  pages/senderismo                   2024id_/http://rio-perlas.com/images/jkit/items/46-big.jpg
+FAIL  pages/pura-pora                    2024id_/http://rio-perlas.com/images/jkit/items/51-big.jpg
+FAIL  pages/contacto                     /2024id_/http://rio-perlas.com/images/jkit/items/5-med.jpg
+OK    pages/historia                       304721b  /2024id_/http://rio-perlas.com/images/jkit/items/2-big.jpg
+OK    pages/contacto-fondo                 383636b  2024id_/http://rio-perlas.com/images/jkit/items/29-big.jpg
+FAIL  rooms/superior                     /web/2024id_/https://rio-perlas.com/images/superior-01.jpg
+FAIL  rooms/river-sound                  chive.org/web/2024id_/https://rio-perlas.com/images/rs.jpg
+FAIL  rooms/junior-suite                 /2024id_/https://rio-perlas.com/images/junior-suite-01.jpg
+OK    rooms/wood-cabin                     548584b  chive.org/web/2024id_/https://rio-perlas.com/images/wc.jpg
+FAIL  rooms/honeymoon                    chive.org/web/2024id_/https://rio-perlas.com/images/hs.jpg
+OK    rooms/mountain-view                 1298417b  chive.org/web/2024id_/https://rio-perlas.com/images/mv.jpg
+OK    rooms/master                         484623b  chive.org/web/2024id_/https://rio-perlas.com/images/ms.jpg
+FAIL  rooms/presidential                 chive.org/web/2024id_/https://rio-perlas.com/images/ps.jpg
+FAIL  rooms/wood-cabin-rustic            d_/https://rio-perlas.com/images/wood-cabin-roustic-01.jpg
+FAIL  rooms/superior-alt                 24id_/http://rio-perlas.com/images/jkit/images/338-med.jpg
+FAIL  gallery/gal-01                     2024id_/http://rio-perlas.com/images/jkit/images/3-med.jpg
+FAIL  gallery/gal-02                     2024id_/http://rio-perlas.com/images/jkit/images/4-med.jpg
+FAIL  gallery/gal-03                     2024id_/http://rio-perlas.com/images/jkit/images/5-med.jpg
+OK    gallery/gal-04                        95156b  2024id_/http://rio-perlas.com/images/jkit/images/6-med.jpg
+FAIL  gallery/gal-05                     2024id_/http://rio-perlas.com/images/jkit/images/7-med.jpg
+FAIL  gallery/gal-06                     2024id_/http://rio-perlas.com/images/jkit/images/8-med.jpg
+FAIL  gallery/gal-07                     2024id_/http://rio-perlas.com/images/jkit/images/9-med.jpg
+FAIL  gallery/gal-08                     024id_/http://rio-perlas.com/images/jkit/images/10-med.jpg
+FAIL  gallery/gal-09                     024id_/http://rio-perlas.com/images/jkit/images/31-med.jpg
+FAIL  gallery/gal-10                     024id_/http://rio-perlas.com/images/jkit/images/32-med.jpg
+FAIL  gallery/gal-11                     024id_/http://rio-perlas.com/images/jkit/images/33-med.jpg
+FAIL  gallery/gal-12                     024id_/http://rio-perlas.com/images/jkit/images/34-med.jpg
+OK    gallery/gal-13                        59319b  024id_/http://rio-perlas.com/images/jkit/images/36-med.jpg
+FAIL  gallery/gal-14                     024id_/http://rio-perlas.com/images/jkit/images/37-med.jpg
+FAIL  gallery/gal-15                     024id_/http://rio-perlas.com/images/jkit/images/38-med.jpg
+FAIL  gallery/gal-16                     024id_/http://rio-perlas.com/images/jkit/images/39-med.jpg
+OK    gallery/gal-17                        82499b  024id_/http://rio-perlas.com/images/jkit/images/40-med.jpg
+OK    gallery/gal-18                        58587b  024id_/http://rio-perlas.com/images/jkit/images/49-med.jpg
+OK    gallery/gal-19                        90761b  024id_/http://rio-perlas.com/images/jkit/images/59-med.jpg
+OK    gallery/gal-20                       116242b  024id_/http://rio-perlas.com/images/jkit/images/66-med.jpg
+OK    gallery/gal-21                       119053b  024id_/http://rio-perlas.com/images/jkit/images/68-med.jpg
+FAIL  gallery/gal-22                     024id_/http://rio-perlas.com/images/jkit/images/72-med.jpg
+FAIL  gallery/gal-23                     024id_/http://rio-perlas.com/images/jkit/images/82-med.jpg
+OK    gallery/gal-24                       102335b  24id_/http://rio-perlas.com/images/jkit/images/120-med.jpg
+OK    gallery/gal-25                        10297b  id_/http://rio-perlas.com/images/jkit/images/128-small.jpg
+FAIL  gallery/gal-26                     id_/http://rio-perlas.com/images/jkit/images/129-small.jpg
+FAIL  gallery/gal-27                     24id_/http://rio-perlas.com/images/jkit/images/148-med.jpg
+FAIL  gallery/gal-28                     24id_/http://rio-perlas.com/images/jkit/images/150-med.jpg
+OK    gallery/gal-29                       165436b  24id_/http://rio-perlas.com/images/jkit/images/159-med.jpg
+OK    gallery/gal-30                       121288b  24id_/http://rio-perlas.com/images/jkit/images/160-med.jpg
+OK    gallery/gal-31                       158750b  24id_/http://rio-perlas.com/images/jkit/images/172-med.jpg
+OK    gallery/gal-32                        69863b  24id_/http://rio-perlas.com/images/jkit/images/184-med.jpg
+OK    gallery/gal-33                        80555b  24id_/http://rio-perlas.com/images/jkit/images/186-med.jpg
+OK    gallery/gal-34                        91332b  24id_/http://rio-perlas.com/images/jkit/images/200-med.jpg
+OK    gallery/gal-35                        71912b  24id_/http://rio-perlas.com/images/jkit/images/204-med.jpg
+FAIL  gallery/gal-36                     24id_/http://rio-perlas.com/images/jkit/images/208-med.jpg
+OK    gallery/gal-37                        43812b  24id_/http://rio-perlas.com/images/jkit/images/233-med.jpg
+OK    gallery/gal-38                       124129b  24id_/http://rio-perlas.com/images/jkit/images/248-med.jpg
+FAIL  gallery/gal-39                     24id_/http://rio-perlas.com/images/jkit/images/253-med.jpg
+FAIL  gallery/gal-40                     24id_/http://rio-perlas.com/images/jkit/images/269-med.jpg
+FAIL  gallery/gal-41                     24id_/http://rio-perlas.com/images/jkit/images/276-med.jpg
+OK    gallery/gal-42                        88512b  24id_/http://rio-perlas.com/images/jkit/images/283-med.jpg
+OK    gallery/gal-43                       103092b  24id_/http://rio-perlas.com/images/jkit/images/294-med.jpg
+OK    gallery/gal-44                        98300b  24id_/http://rio-perlas.com/images/jkit/images/301-med.jpg
+OK    gallery/gal-45                        95156b  2024id_/http://rio-perlas.com/images/jkit/images/6-med.jpg
+OK    gallery/gal-46                        67622b  024id_/http://rio-perlas.com/images/jkit/images/23-med.jpg
+OK    gallery/gal-47                       102734b  024id_/http://rio-perlas.com/images/jkit/images/24-med.jpg
+OK    gallery/gal-48                       110908b  024id_/http://rio-perlas.com/images/jkit/images/25-med.jpg
+OK    gallery/gal-49                       192696b  024id_/http://rio-perlas.com/images/jkit/images/26-med.jpg
+FAIL  gallery/gal-50                     024id_/http://rio-perlas.com/images/jkit/images/35-med.jpg
+OK    official/of-01                        36319b  96/photo/lg_rio-perlas-thermal-resort-spa_174299682111.jpg
+OK    official/of-02                        37800b  96/photo/lg_rio-perlas-thermal-resort-spa_174299682419.jpg
+OK    official/of-03                        27142b  96/photo/lg_rio-perlas-thermal-resort-spa_174299682418.jpg
+OK    official/of-04                        31196b  96/photo/lg_rio-perlas-thermal-resort-spa_174299682317.jpg
+OK    official/of-05                        12986b  96/photo/lg_rio-perlas-thermal-resort-spa_174299682316.jpg
+OK    official/of-06                        16460b  96/photo/lg_rio-perlas-thermal-resort-spa_174299682215.jpg
+OK    official/of-07                        24034b  96/photo/lg_rio-perlas-thermal-resort-spa_174299682214.jpg
+OK    official/of-08                        25520b  96/photo/lg_rio-perlas-thermal-resort-spa_174299682213.jpg
+OK    official/of-09                         8672b  96/photo/lg_rio-perlas-thermal-resort-spa_174299682212.jpg
+FAIL  official/of-10                     696/photo/lg_rio-perlas-thermal-resort-spa_15451686021.jpg
