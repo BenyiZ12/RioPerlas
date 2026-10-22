@@ -44,9 +44,12 @@ coverage/
 .temp/
 *.local
 
-# Research artifacts (local only)
-.research/
-scripts/
+# Research artifacts: only transient review material is ignored
+.research/*.out
+.research/sheet*.jpg
+.research/logo_cmp.png
+.research/logo_check.png
+research_tmp/
 a
 fb.err
 fb.out

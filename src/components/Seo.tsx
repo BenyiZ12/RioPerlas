@@ -1,67 +1,67 @@
 import { useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
+import { site } from '../content/site'
+import type { Lang } from '../i18n/useI18n'
 
 type Props = {
-  lang: 'es' | 'en'
+  lang: Lang
   title: string
   description: string
-  path: string
+  /** Path of this page in each locale, without the language prefix. */
+  paths: { es: string; en: string }
+  image?: string
+  type?: 'website' | 'article'
 }
 
-const BASE = 'https://www.rioperlasresort.example' // placeholder; update if owner provides domain
+function upsertMeta(selector: string, attr: 'name' | 'property', key: string, content: string) {
+  let el = document.head.querySelector<HTMLMetaElement>(selector)
+  if (!el) {
+    el = document.createElement('meta')
+    el.setAttribute(attr, key)
+    document.head.appendChild(el)
+  }
+  el.setAttribute('content', content)
+}
 
-export default function Seo({ lang, title, description, path }: Props) {
-  const location = useLocation()
+function upsertLink(rel: string, href: string, hreflang?: string) {
+  const selector = hreflang
+    ? `link[rel="${rel}"][hreflang="${hreflang}"]`
+    : `link[rel="${rel}"]:not([hreflang])`
+  let el = document.head.querySelector<HTMLLinkElement>(selector)
+  if (!el) {
+    el = document.createElement('link')
+    el.setAttribute('rel', rel)
+    if (hreflang) el.setAttribute('hreflang', hreflang)
+    document.head.appendChild(el)
+  }
+  el.setAttribute('href', href)
+}
+
+export default function Seo({ lang, title, description, paths, image, type = 'website' }: Props) {
+  const esUrl = `${site.origin}/es${paths.es}`
+  const enUrl = `${site.origin}/en${paths.en}`
+  const canonical = lang === 'es' ? esUrl : enUrl
+  const ogImage = image ? `${site.origin}${image}` : `${site.origin}/images/og/og-image.jpg`
 
   useEffect(() => {
-    document.documentElement.lang = lang
     document.title = title
+    document.documentElement.lang = lang
 
-    const setMeta = (name: string, content: string, attr: string = 'name') => {
-      let el = document.querySelector(`meta[${attr}="${name}"]`) as HTMLMetaElement | null
-      if (!el) {
-        el = document.createElement('meta')
-        el.setAttribute(attr, name)
-        document.head.appendChild(el)
-      }
-      el.content = content
-    }
+    upsertMeta('meta[name="description"]', 'name', 'description', description)
+    upsertMeta('meta[property="og:title"]', 'property', 'og:title', title)
+    upsertMeta('meta[property="og:description"]', 'property', 'og:description', description)
+    upsertMeta('meta[property="og:url"]', 'property', 'og:url', canonical)
+    upsertMeta('meta[property="og:type"]', 'property', 'og:type', type)
+    upsertMeta('meta[property="og:image"]', 'property', 'og:image', ogImage)
+    upsertMeta('meta[property="og:locale"]', 'property', 'og:locale', lang === 'es' ? 'es_CR' : 'en_US')
+    upsertMeta('meta[name="twitter:title"]', 'name', 'twitter:title', title)
+    upsertMeta('meta[name="twitter:description"]', 'name', 'twitter:description', description)
+    upsertMeta('meta[name="twitter:image"]', 'name', 'twitter:image', ogImage)
 
-    setMeta('description', description)
-    setMeta('og:title', title, 'property')
-    setMeta('og:description', description, 'property')
-    setMeta('og:type', 'website', 'property')
-    setMeta('og:locale', lang === 'es' ? 'es_CR' : 'en_US', 'property')
-    setMeta('twitter:card', 'summary_large_image')
-    setMeta('twitter:title', title)
-    setMeta('twitter:description', description)
-
-    let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null
-    if (!link) {
-      link = document.createElement('link')
-      link.rel = 'canonical'
-      document.head.appendChild(link)
-    }
-    link.href = `${BASE}${path}`
-
-    // hreflang
-    const removeHreflang = () => {
-      document.querySelectorAll('link[rel="alternate"][hreflang]').forEach((n) => n.remove())
-    }
-    removeHreflang()
-    const esPath = path.replace('/en/', '/es/').replace('/en', '/es')
-    const enPath = path.replace('/es/', '/en/').replace('/es', '/en')
-    const addAlt = (hreflang: string, hrefPath: string) => {
-      const l = document.createElement('link')
-      l.rel = 'alternate'
-      l.hreflang = hreflang
-      l.href = `${BASE}${hrefPath.endsWith('/') ? hrefPath : hrefPath + '/'}`
-      document.head.appendChild(l)
-    }
-    addAlt('es-CR', esPath)
-    addAlt('en', enPath)
-    addAlt('x-default', esPath)
-  }, [lang, title, description, path, location.pathname])
+    upsertLink('canonical', canonical)
+    upsertLink('alternate', esUrl, 'es')
+    upsertLink('alternate', enUrl, 'en')
+    upsertLink('alternate', esUrl, 'x-default')
+  }, [title, description, canonical, esUrl, enUrl, lang, ogImage, type])
 
   return null
 }
